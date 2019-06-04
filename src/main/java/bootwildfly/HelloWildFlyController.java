@@ -16,7 +16,7 @@ public class HelloWildFlyController {
 	public Saluto testClient() {
 		System.out.println("entrati con app");
 	
-		return new Saluto("nome", "ciao Ionic");
+		return new Saluto("emiliano", "ciao Ionic");
 	}
 	
 	private class Saluto{
